@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.first-screen {
+    width: 1920px;
+    padding-left: 399px;
+    background-color: #EEEFF1;
+}
+
+.link {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 79px 42px 0px 42px;
+    text-decoration: none;
+    line-height: 18px;
+    color: black;
+}
+
+.link.first {
+    margin-left: 0px;
+    color: #34547A;
+}
+
+.title {
+    line-height: 60px;
+    margin: 160px 0px 0px 0px;
+}
+
+.text {
+    line-height: 26px;
+    padding-right: 980px;
+    margin: 45px 0px 0px 0px;
+}
+
+.button {
+    margin: 54px 0px 141px 0px;
+    padding: 19px 41px;
+    text-transform: uppercase;
+    background-color: #34547A;
+}
