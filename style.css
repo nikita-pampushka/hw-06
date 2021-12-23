@@ -1,13 +1,10 @@
 body {
     margin: 0;
-}
-
-* {
-    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Roboto';
 }
 
 .first-screen {
-    width: 1920px;
     padding-left: 399px;
     background-color: #EEEFF1;
 }
@@ -19,6 +16,7 @@ body {
     text-decoration: none;
     line-height: 18px;
     color: black;
+    font-weight: 400;
 }
 
 .link.first {
@@ -29,12 +27,18 @@ body {
 .title {
     line-height: 60px;
     margin: 160px 0px 0px 0px;
+    width: 541px;
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .text {
     line-height: 26px;
-    padding-right: 980px;
+    width: 540px;
     margin: 45px 0px 0px 0px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .button {
@@ -42,4 +46,59 @@ body {
     padding: 19px 41px;
     text-transform: uppercase;
     background-color: #34547A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main {
+    text-align: center;
+}
+
+.about-me {
+    display: inline-block;
+    margin: 112px 0px 0px 0px;
+    line-height: 38px;
+    width: 403px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.text.about {
+    margin: 42px auto 89px auto;
+    width: 540px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.folio {
+    background-color: #34547A;
+    padding: 100px;
+}
+
+.projects {
+    margin: 0px 45px 0px 0px;
+}
+
+.about-me.work {
+    margin-top: 100px;
+}
+
+.video {
+    margin: 46px 0px 100px 0px;
+}
+
+.footer {
+    background-color: #34547A;
+    padding: 50px 0px 47px 406px;
+}
+
+.author {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.rights {
+    font-size: 13px;
+    font-weight: 400;
 }
