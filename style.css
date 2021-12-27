@@ -1,11 +1,15 @@
 body {
     margin: 0;
     width: 100%;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
 }
 
 .first-screen {
-    padding-left: 399px;
     background-color: #EEEFF1;
 }
 
@@ -48,6 +52,7 @@ body {
     background-color: #34547A;
     font-size: 16px;
     font-weight: 400;
+    color: white;
 }
 
 .main {
@@ -64,6 +69,7 @@ body {
 }
 
 .text.about {
+    text-align: center;
     margin: 42px auto 89px auto;
     width: 540px;
     font-size: 16px;
@@ -71,12 +77,36 @@ body {
 }
 
 .folio {
+    text-align: left;
     background-color: #34547A;
     padding: 100px;
 }
 
+.icon {
+    margin-right: 20px;
+}
+
 .projects {
-    margin: 0px 45px 0px 0px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 45px;
+    margin-top: 3px;
+    width: 71px;
+}
+
+.projects.last {
+    margin-right: 0px;
+}
+
+.qty {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .about-me.work {
@@ -89,7 +119,8 @@ body {
 
 .footer {
     background-color: #34547A;
-    padding: 50px 0px 47px 406px;
+    padding: 50px 0px 47px 0px;
+    color: white;
 }
 
 .author {
